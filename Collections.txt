@@ -1,0 +1,9 @@
+*HashMap*
+1. how to traverse:
+     for (Map.Entry<String, Integer> e : map.entrySet())
+            System.out.println("Key: " + e.getKey()
+                               + " Value: " + e.getValue());
+2. methods:
+     containsKey(Object key)	Returns true if this map contains a mapping for the specified key.
+     containsValue(Object value)	Returns true if this map maps one or more keys to the specified value.
+     map.values() 
