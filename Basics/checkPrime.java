@@ -1,6 +1,7 @@
+package Basics;
 import java.lang.Math;
 public class checkPrime {
-    public static boolean checkPrime(int n){
+    public static boolean checkPrimeorNot(int n){
         if(n==0 || n==1){
             return false;
         }
@@ -14,7 +15,7 @@ public class checkPrime {
     }
     public static void main(String args[]){
         int val = 6;
-        System.out.println(checkPrime(val));
+        System.out.println(checkPrimeorNot(val));
     }
     
 }
